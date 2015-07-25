@@ -39,6 +39,8 @@ end
 
 c:set('autoupdater', 'settings', 'version_file', '/lib/gluon/release')
 
+c:set('autoupdater', 'settings', 'branch', 'stable')
+
 c:save('autoupdater')
 c:commit('autoupdater')
 
