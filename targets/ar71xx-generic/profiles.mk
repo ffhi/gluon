@@ -20,9 +20,10 @@ endif
 $(eval $(call GluonProfile,TLWR703))
 $(eval $(call GluonModel,TLWR703,tl-wr703n-v1,tp-link-tl-wr703n-v1))
 
-# TL-WR710N v1
+# TL-WR710N v1, v2
 $(eval $(call GluonProfile,TLWR710))
 $(eval $(call GluonModel,TLWR710,tl-wr710n-v1,tp-link-tl-wr710n-v1))
+$(eval $(call GluonModel,TLWR710,tl-wr710n-v2,tp-link-tl-wr710n-v2))
 
 # TL-WR740N v1, v3, v4, v5
 $(eval $(call GluonProfile,TLWR740))
